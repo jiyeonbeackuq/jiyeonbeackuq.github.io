@@ -19,6 +19,7 @@ title: Projects
     <li>Designed Python + Pandas learning materials for beginner data learners</li>
     <li>Mentored remotely via Zoom and ZEP (metaverse platform)</li>
     <li>Topics included EDA, data wrangling, and real-world mini projects</li>
+    <li><a href="https://github.com/your-repo/brisbane-house-price-app" target="_blank">View on GitHub</a></li>
   </ul>
 
   <h2>🧠 In Progress</h2>
