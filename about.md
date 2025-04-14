@@ -5,7 +5,9 @@ title: About Jiyeon Beack
 
 <div class="post">
   <h1 class="pageTitle">About Jiyeon</h1>
-  <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" alt="Jiyeon" style="max-width: 300px; border-radius: 10px;">
+  <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+  <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" alt="Jiyeon" style="max-width: 280px; border-radius: 10px; flex-shrink: 0;">
+  <!-- <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" alt="Jiyeon" style="max-width: 300px; border-radius: 10px;"> -->
 <!-- <img src="https://raw.githubusercontent.com/jiyeonbeackuq/jiyeonbeackuq.github.io/main/assets/img/profile.jpeg" alt="Jiyeon" style="max-width: 300px; border-radius: 10px;"> -->
   <p class="intro">Hi, I’m <strong>Jiyeon Beack</strong>, a Master of Information Technology student at the University of Queensland, passionate about <strong>Machine Learning, Data Engineering, and building real-world solutions</strong>.</p>
 
