@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: Jiyeon's Dev Blog
+description: A blog documenting my learning journey in Data Science, Machine Learning, and AI.
 
-url: https://long-haul.netlify.app
+url: "https://jiyeonbeackuq.github.io"
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
@@ -21,21 +21,23 @@ paginate: 5
 navigation:
     - title: Home
       url: /index.html
-    - title: About
+    - title: About Me
       url: /about
+    - title: Projects
+      url: /projects
     - title: Contact
       url: /contact
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+    github: jiyeonbeackuq
+    # twitter: brianmaierjr
+    # facebook: brianmaierjr
+    email: j.beack@student.uq.edu.au
+    linkedin: jiyeonbeack
+    # youtube: RickAstleyYT
+    # tumblr: i-am-a-fish
 
-google_analytics: "UA-58263416-1"
+# google_analytics: "UA-58263416-1"
 
-disqus:
-    shortname: brianmaierjr
+# disqus:
+#     shortname: brianmaierjr
