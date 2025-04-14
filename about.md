@@ -13,7 +13,7 @@ title: About Jiyeon Beack
 
   <p>Previously, I worked as a <strong>Data Scientist at Lotte Rental</strong> in South Korea, where I built machine learning models for used car price prediction and developed Tableau dashboards to support decision-making. I also launched internal Python training sessions and participated in mentoring programs to help others grow.</p>
 
-  <p>After moving to Brisbane, I’ve been actively exploring end-to-end machine learning pipelines — from model development to deployment using <strong>Streamlit, Django, and AWS</strong>. I also enjoy simplifying complex concepts for others and currently tutor in data analysis and Python programming remotely for <strong>Sparta Coding Club</strong>.
+  <p>After moving to Brisbane, I’ve been actively exploring end-to-end machine learning pipelines — from model development to deployment using <strong>Streamlit, Django, and AWS</strong>. I also enjoy simplifying complex concepts for others and currently tutor in data analysis and Python programming remotely for <strong>Sparta Coding Club</strong>.</p>
 
   <h2>Current Interests</h2>
   <ul>
@@ -29,4 +29,5 @@ title: About Jiyeon Beack
     <li>💼 <a href="https://www.linkedin.com/in/jiyeonbeack/" target="_blank">LinkedIn</a></li>
     <li>✉️ j.beack@student.uq.edu.au</li>
   </ul>
+
 </div>
