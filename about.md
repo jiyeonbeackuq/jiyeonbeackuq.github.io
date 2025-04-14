@@ -9,11 +9,11 @@ title: About Jiyeon Beack
     <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" alt="Jiyeon" style="max-width: 300px; border-radius: 10px;">
   </p>
 
-    <p class="intro">Hi, I’m <strong>Jiyeon Beack</strong>, a Master of Information Technology student at the University of Queensland, passionate about <strong>Machine Learning, Data Engineering, and building real-world solutions</strong>.</p>
+  <p class="intro">Hi, I’m <strong>Jiyeon Beack</strong>, a Master of Information Technology student at the University of Queensland, passionate about <strong>Machine Learning, Data Engineering, and building real-world solutions</strong>.</p>
 
-    <p>Previously, I worked as a <strong>Data Scientist at Lotte Rental</strong> in South Korea, where I built machine learning models for used car price prediction and developed Tableau dashboards to support decision-making. I also launched internal Python training sessions and participated in mentoring programs to help others grow.</p>
+  <p>Previously, I worked as a <strong>Data Scientist at Lotte Rental</strong> in South Korea, where I built machine learning models for used car price prediction and developed Tableau dashboards to support decision-making. I also launched internal Python training sessions and participated in mentoring programs to help others grow.</p>
 
-    <p>After moving to Brisbane, I’ve been actively exploring end-to-end machine learning pipelines — from model development to deployment using <strong>Streamlit, Django, and AWS</strong>. I also enjoy simplifying complex concepts for others and currently tutor in data analysis and Python programming remotely for <strong>Sparta Coding Club</strong>.
+  <p>After moving to Brisbane, I’ve been actively exploring end-to-end machine learning pipelines — from model development to deployment using <strong>Streamlit, Django, and AWS</strong>. I also enjoy simplifying complex concepts for others and currently tutor in data analysis and Python programming remotely for <strong>Sparta Coding Club</strong>.
 
   <h2>Current Interests</h2>
   <ul>
