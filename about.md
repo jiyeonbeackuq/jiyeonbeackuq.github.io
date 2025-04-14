@@ -27,7 +27,9 @@ title: About Jiyeon Beack
   <ul>
     <li>🔗 <a href="https://github.com/jiyeonbeackuq" target="_blank">GitHub</a></li>
     <li>💼 <a href="https://www.linkedin.com/in/jiyeonbeack/" target="_blank">LinkedIn</a></li>
-    <li>✉️ j.beack@student.uq.edu.au</li>
+    <li>✉️ <a href ="mailto:j.beack@student.uq.edu.au">j.beack@student.uq.edu.au</a></li>
   </ul>
 
 </div>
+
+
