@@ -29,7 +29,7 @@ title: Projects
     <li>Building a regression model using scikit-learn to predict house prices based on suburb, bedrooms, and property type</li>
     <li>Deploying the model using <strong>Streamlit</strong> and hosted on <strong>Streamlit Cloud</strong></li>
     <li>Performing feature engineering, model evaluation (MAPE), and UI design</li>
-    <li><a href="https://github.com/your-repo/brisbane-house-price-app" target="_blank">View on GitHub</a></li>
+    <!-- <li><a href="https://github.com/your-repo/brisbane-house-price-app" target="_blank">View on GitHub</a></li> -->
   </ul> 
 
   <!-- <ul>
