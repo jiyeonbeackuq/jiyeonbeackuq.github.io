@@ -19,16 +19,16 @@ title: Projects
     <li>Designed Python + Pandas learning materials for beginner data learners</li>
     <li>Mentored remotely via Zoom and ZEP (metaverse platform)</li>
     <li>Topics included EDA, data wrangling, and real-world mini projects</li>
-    <li><a href="https://github.com/your-repo/brisbane-house-price-app" target="_blank">View on GitHub</a></li>
+    <li><a href="https://github.com/jiyeonbeackuq/data-tutoring-sparta5" target="_blank">View on GitHub</a></li>
   </ul>
 
   <h2>🧠 In Progress</h2>
 
    <h2>🏡 Brisbane House Price Prediction</h2>
   <ul>
-    <li>Built a regression model using scikit-learn to predict house prices based on suburb, bedrooms, and property type</li>
-    <li>Deployed the model using <strong>Streamlit</strong> and hosted on <strong>Streamlit Cloud</strong></li>
-    <li>Performed feature engineering, model evaluation (MAPE), and UI design</li>
+    <li>Building a regression model using scikit-learn to predict house prices based on suburb, bedrooms, and property type</li>
+    <li>Deploying the model using <strong>Streamlit</strong> and hosted on <strong>Streamlit Cloud</strong></li>
+    <li>Performing feature engineering, model evaluation (MAPE), and UI design</li>
     <li><a href="https://github.com/your-repo/brisbane-house-price-app" target="_blank">View on GitHub</a></li>
   </ul> 
 
