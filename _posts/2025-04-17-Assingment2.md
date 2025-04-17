@@ -29,7 +29,7 @@ VBox([
 ])
 ```
 
-![gui screenshot](/Users/a1234/Documents/GitHub/jiyeonbeackuq.github.io/assets/img/fingerprint.png)
+![gui screenshot](assets/img/fingerprint.png)
 
 ### Matching Logic
 
