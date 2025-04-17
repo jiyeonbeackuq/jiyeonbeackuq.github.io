@@ -108,7 +108,7 @@ I used **CrossEntropyLossFlat**, which is well-suited for multiclass tasks where
 
 ![confusion matrix](/Users/a1234/Documents/GitHub/jiyeonbeackuq.github.io/assets/img/confusion-matrix.png)
 
-### 📄 Classification Report
+### Classification Report
 
 | Class       | Precision | Recall | F1-Score | Support |
 |-------------|-----------|--------|----------|---------|
@@ -133,7 +133,7 @@ The t-SNE plot shows clearly separated clusters, confirming that the model learn
 
 ---
 
-## 🐕 Bonus: Real-world Test with My Dog
+## Real-world Test with My Dog
 
 I used an iPhone photo of my dog, converted from `.HEIC` to `.JPG`, and predicted it using:
 
