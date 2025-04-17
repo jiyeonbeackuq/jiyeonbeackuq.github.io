@@ -9,9 +9,9 @@ tags: [fastai, image classification, t-SNE, confusion matrix, fingerprint recogn
 
 ---
 
-## 🧠 Problem 1: Fingerprint Recognition
+## Problem 1: Fingerprint Recognition
 
-### 📌 Task
+### Task
 
 I was provided with a Jupyter notebook from [https://github.com/lovellbrian/fingerprint](https://github.com/lovellbrian/fingerprint) and asked to:
 
@@ -20,7 +20,7 @@ I was provided with a Jupyter notebook from [https://github.com/lovellbrian/fing
 - **Compare new fingerprints** to those stored in a gallery
 - **Evaluate matching performance** and visualize ROC curves
 
-### 🖼️ GUI Preview (Jupyter widgets)
+### GUI Preview (Jupyter widgets)
 
 ```python
 VBox([
@@ -29,9 +29,9 @@ VBox([
 ])
 ```
 
-![gui screenshot](assets/fingerprint.png)
+![gui screenshot](assets/img/fingerprint.png)
 
-### 📌 Matching Logic
+### Matching Logic
 
 ```python
 def match_against_db1b(des):
@@ -49,11 +49,11 @@ def match_against_db1b(des):
     return sorted(results, key=lambda x: x[1], reverse=True)
 ```
 
-### 📈 ROC Curve
+### ROC Curve
 
-We measured genuine vs impostor pairs and computed the ROC curve:
+I measured genuine vs impostor pairs and computed the ROC curve:
 
-![roc curve](assets/fingerprint-roc.png)
+![roc curve](assets/img/fingerprint-roc.png)
 
 ```python
 fpr, tpr, thresholds = roc_curve(y_true, y_scores)
@@ -66,9 +66,9 @@ I also estimated:
 
 ---
 
-## 🐶 Problem 2: Multiclass Image Classification
+## Problem 2: Multiclass Image Classification
 
-### 🖼️ Target Classes
+### Target Classes
 
 I collected image data for five classes:
 
@@ -78,7 +78,7 @@ classes = ['airplane', 'automobile', 'bird', 'cat', 'dog']
 
 Each class was populated using DuckDuckGo web scraping and `download_images()` from `fastai.vision.utils`.
 
-### 🧱 Model Pipeline
+### Model Pipeline
 
 - `resnet18` base model
 - `CrossEntropyLossFlat` for multiclass classification
@@ -96,17 +96,17 @@ dls = DataBlock(
 
 ### ✅ Loss Function Rationale
 
-We used **CrossEntropyLossFlat**, which is well-suited for multiclass tasks where each image has exactly one correct label. It combines softmax activation with negative log-likelihood, accounting for mutual exclusivity between classes.
+I used **CrossEntropyLossFlat**, which is well-suited for multiclass tasks where each image has exactly one correct label. It combines softmax activation with negative log-likelihood, accounting for mutual exclusivity between classes.
 
 > Reference: [PyTorch docs](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html), [fastai loss functions](https://docs.fast.ai/losses.html)
 
 ---
 
-## 📊 Evaluation Results
+## Evaluation Results
 
-### 📌 Confusion Matrix
+### Confusion Matrix
 
-![confusion matrix](assets/confusion-matrix.png)
+![confusion matrix](assets/img/confusion-matrix.png)
 
 ### 📄 Classification Report
 
@@ -120,14 +120,14 @@ We used **CrossEntropyLossFlat**, which is well-suited for multiclass tasks wher
 
 **Accuracy: 0.98**
 
-### 📌 t-SNE Visualization
+### t-SNE Visualization
 
 ```python
 from sklearn.manifold import TSNE
 tsne = TSNE(n_components=2).fit_transform(acts.cpu().numpy())
 ```
 
-![t-sne](assets/tsne.png)
+![t-sne](assets/img/t-sne.png)
 
 The t-SNE plot shows clearly separated clusters, confirming that the model learned well-discriminated features for each class.
 
@@ -142,18 +142,3 @@ img = PILImage.create("mydog.jpg")
 pred, idx, probs = learn.predict(img)
 print(f"Prediction: {pred}, Probability: {probs[idx]:.2f}")
 ```
-
----
-
-## 🔚 Conclusion
-
-This project demonstrates a full pipeline from:
-
-- **Data collection**
-- **Model training**
-- **Evaluation**
-- **Interpretability**
-
-Tools like `t-SNE`, `confusion matrices`, and ROC curves were essential in validating model performance both quantitatively and visually.
-
----
