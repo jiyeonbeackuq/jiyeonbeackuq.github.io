@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Post With A Code Snippet"
-date:   2014-12-13
+title:  "Post for markdown elements"
+date:   2015-04-16
 ---
 
 # Heading 1
