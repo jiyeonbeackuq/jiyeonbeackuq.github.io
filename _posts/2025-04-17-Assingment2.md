@@ -29,9 +29,9 @@ VBox([
 ])
 ```
 
-![gui screenshot](../assets/img/fingerprint.png)
+![gui screenshot](https://jiyeonbeackuq.github.io/assets/img/fingerprint.png)
 
-### Matching Logic
+### Matching Logic!
 
 ```python
 def match_against_db1b(des):
