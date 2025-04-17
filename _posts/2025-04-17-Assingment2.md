@@ -29,7 +29,7 @@ VBox([
 ])
 ```
 
-![gui screenshot](assets/img/fingerprint.png)
+![gui screenshot](/Users/a1234/Documents/GitHub/jiyeonbeackuq.github.io/assets/img/fingerprint.png)
 
 ### Matching Logic
 
@@ -53,7 +53,7 @@ def match_against_db1b(des):
 
 I measured genuine vs impostor pairs and computed the ROC curve:
 
-![roc curve](assets/img/fingerprint-roc.png)
+![roc curve](/Users/a1234/Documents/GitHub/jiyeonbeackuq.github.io/assets/img/fingerprint_roc.png)
 
 ```python
 fpr, tpr, thresholds = roc_curve(y_true, y_scores)
@@ -106,7 +106,7 @@ I used **CrossEntropyLossFlat**, which is well-suited for multiclass tasks where
 
 ### Confusion Matrix
 
-![confusion matrix](assets/img/confusion-matrix.png)
+![confusion matrix](/Users/a1234/Documents/GitHub/jiyeonbeackuq.github.io/assets/img/confusion-matrix.png)
 
 ### 📄 Classification Report
 
@@ -127,7 +127,7 @@ from sklearn.manifold import TSNE
 tsne = TSNE(n_components=2).fit_transform(acts.cpu().numpy())
 ```
 
-![t-sne](assets/img/t-sne.png)
+![t-sne](/Users/a1234/Documents/GitHub/jiyeonbeackuq.github.io/assets/img/t-SNE.png)
 
 The t-SNE plot shows clearly separated clusters, confirming that the model learned well-discriminated features for each class.
 
