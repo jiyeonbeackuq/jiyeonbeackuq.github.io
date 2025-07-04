@@ -22,6 +22,18 @@ title: Projects
     <li><a href="https://github.com/jiyeonbeackuq/data-tutoring-sparta5" target="_blank">View on GitHub</a></li>
   </ul>
 
+  <h2>👀 ELEC4630 Computer Vision Project</h2>
+  <ul>
+    <li>Built image classification models (ResNet, ConvNeXt, EfficientViT) using FastAI</li>
+    <li>Applied data augmentation, learning rate tuning, and test-time augmentation (TTA)</li>
+    <li>Achieved 0.012 error rate on AI-generated image detection task</li>
+    <li>
+      Related posts:
+      <a href="{{ site.baseurl }}/blog/2025-04-17-Assingment2">Fingerprint Recognition & Multiclass Image Classification</a>,
+      <a href="{{ site.baseurl }}/blog/2025-07-04-elec4630_final_blogpost">Paddy Leaf Disease Classification & Real vs AI-Generated Image Classification</a>
+    </li>
+  </ul>
+
   <h2>🧠 In Progress</h2>
 
    <h2>🏡 Brisbane House Price Prediction</h2>
