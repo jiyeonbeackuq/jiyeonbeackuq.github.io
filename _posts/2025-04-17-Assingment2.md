@@ -3,6 +3,7 @@ title: "Multiclass Image & Fingerprint Recognition with fastai"
 date: 2025-04-17
 author: Jiyeon Beack
 tags: [fastai, image classification, t-SNE, confusion matrix, fingerprint recognition]
+permalink: /blog/assignment2-fingerprint/
 ---
 
 > In this post, I document my approach to solving an assignment on fingerprint recognition and multiclass classification using the `fastai` library, `DuckDuckGo` image search, and `t-SNE` visualization.
