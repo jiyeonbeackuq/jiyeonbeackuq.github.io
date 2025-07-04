@@ -31,6 +31,17 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
+
+	// 큰 화면에서는 더 많은 공간 활용
+	@media (min-width: 1200px) {
+		max-width: 95vw;  // 뷰포트 너비의 95%
+		padding: 0 40px;
+	}
+	
+	@media (min-width: 1600px) {
+		max-width: 1500px;  // 매우 큰 화면에서는 최대 너비 제한
+	}
+
 }
 
 
