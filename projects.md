@@ -29,8 +29,8 @@ title: Projects
     <li>Achieved 0.012 error rate on AI-generated image detection task</li>
     <li>
       Related posts:
-      <a href="{{ site.baseurl }}/blog/2025-04-17-Assingment2">Fingerprint Recognition & Multiclass Image Classification</a>,
-      <a href="{{ site.baseurl }}/blog/2025-07-04-elec4630_final_blogpost">Paddy Leaf Disease Classification & Real vs AI-Generated Image Classification</a>
+      <a href="_posts/2025-04-17-Assingment2.md">Fingerprint Recognition & Multiclass Image Classification</a>,
+      <a href="_posts/2025-07-04-elec4630_final_blogpost.md">Paddy Leaf Disease Classification & Real vs AI-Generated Image Classification</a>
     </li>
   </ul>
 
