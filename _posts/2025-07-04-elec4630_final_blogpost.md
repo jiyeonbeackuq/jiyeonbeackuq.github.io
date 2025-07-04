@@ -1,6 +1,15 @@
+---
+layout: post
+title: "Efficient Deep Learning for Image Classification: Insights from ELEC4630 Final Project"
+date: 2025-07-04
+author: Jiyeon Beack
+tags: [deep learning, computer vision, fastai, resnet, convnext, efficientvit, paddyleaf, ai-detection]
+permalink: /blog/elec4630-final/
+---
+
 # Efficient Deep Learning for Image Classification: Insights from ELEC4630 Final Project
 
-Author: Jiyeon Beack (s4866889)
+Author: Jiyeon Beack
 
 ## 🔍 Overview
 

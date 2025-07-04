@@ -28,10 +28,10 @@ title: Projects
     <li>Applied data augmentation, learning rate tuning, and test-time augmentation (TTA)</li>
     <li>Achieved 0.012 error rate on AI-generated image detection task</li>
     <li>
-      Related posts:
-      <a href="_posts/2025-04-17-Assingment2.md">Fingerprint Recognition & Multiclass Image Classification</a>,
-      <a href="_posts/2025-07-04-elec4630_final_blogpost.md">Paddy Leaf Disease Classification & Real vs AI-Generated Image Classification</a>
-    </li>
+  Related posts:
+  <a href="{{ site.baseurl }}/blog/assignment2-fingerprint/">Fingerprint Recognition & Multiclass Classification</a>,
+  <a href="{{ site.baseurl }}/blog/elec4630-final/">Paddy Leaf Disease & AI Image Classification</a>
+</li>
   </ul>
 
   <h2>🧠 In Progress</h2>
